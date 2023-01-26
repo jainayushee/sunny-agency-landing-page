@@ -26,7 +26,7 @@ export default function Services () {
 
   return (
     <div className='gallery-section'>
-      <div className='grid grid-rows-1 grid-flow-col'>
+      <div className='grid lg:grid-rows-1 grid-flow-col grid-rows-2'>
         {services.map((service: Service) => (
           <>
             <div className='relative text-center'>

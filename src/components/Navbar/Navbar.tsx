@@ -26,9 +26,9 @@ export default function Navbar () {
           onClick={() => handleClick()}
             >
           <div className='space-y-2'>
-            <span className='block w-8 h-0.5 bg-gray-600' />
-            <span className='block w-6 h-0.5 bg-gray-600' />
-            <span className='block w-4 h-0.5 bg-gray-600' />
+            <span className='block w-8 h-0.5 bg-white' />
+            <span className='block w-8 h-0.5 bg-white' />
+            <span className='block w-8 h-0.5 bg-white' />
           </div>
 
         </button>

@@ -5,7 +5,7 @@ export default function Gallery () {
 
   return (
     <div className='gallery-section'>
-      <div className='grid grid-rows-1 grid-flow-col'>
+      <div className='grid grid-rows-2 grid-flow-col lg:grid-rows-1'>
         {images.map((image: string) => (
           <img src={image} alt='milkbottles' />
         ))}

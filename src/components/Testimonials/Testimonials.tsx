@@ -38,9 +38,9 @@ export default function Testimonials () {
         <h2 className='text-2xl text-[#818498] uppercase '>Client Testimonials</h2>
       </div>
 
-      <div className='flex flex-row px-10'>
+      <div className='flex lg:flex-row px-10 flex-col'>
         {testimonials.map((testy: Testimonial) => (
-          <div className='flex flex-col items-center justify-center'>
+          <div className='flex flex-col items-center justify-center pb-10'>
 
             <img
               src={`img/image-${testy.img}.jpg`}

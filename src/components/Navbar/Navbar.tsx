@@ -1,8 +1,13 @@
 import React from 'react'
 
 export default function Navbar () {
+  const button = document.getElementById('menu-btn')
+  const nav = document.getElementById('menu')
+
   function handleClick (): void {
-    throw new Error('Function not implemented.')
+    button?.classList.toggle('open')
+    nav?.classList.toggle('flex')
+    nav?.classList.toggle('hidden')
   }
 
   return (

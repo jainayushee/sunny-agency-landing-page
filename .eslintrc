@@ -9,8 +9,8 @@
       "ecmaVersion": "latest",
       "sourceType": "module"
     },
-    "plugins": ["@typescript-eslint", "react"],
-    "extends": ["plugin:@typescript-eslint/recommended", "standard", "standard-react"],
+    "plugins": ["@typescript-eslint", "react", "prettier"],
+    "extends": ["plugin:@typescript-eslint/recommended", "plugin:prettier/recommended", "prettier"],
     "rules": {
       "no-console": "error",
       "semi": "off",

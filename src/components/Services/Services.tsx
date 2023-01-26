@@ -31,9 +31,9 @@ export default function Services () {
           <>
             <div className='relative text-center'>
               <img src={service.img} alt='Image not found' />
-              <div className='absolute bottom-10 text-center'>
-                <h2>{service.title}</h2>
-                <p>{service.body}</p>
+              <div className='absolute bottom-10 text-center px-24'>
+                <h3 style={{ fontWeight: '900', fontSize: '1.75rem' }}>{service.title}</h3>
+                <p className='text-[#5a636c]' style={{ fontFamily: '"Barlow", sans-serif' }}>{service.body}</p>
               </div>
             </div>
           </>

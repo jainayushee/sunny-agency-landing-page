@@ -33,26 +33,27 @@ export default function Testimonials () {
   ]
 
   return (
-    <div className='container-fluid testimonial-section py-20'>
-      <div className='text-center py-8'>
-        <h2 className='text-3xl'>Client Testimonials</h2>
+    <div className='pb-20'>
+      <div className='text-center pt-20 pb-16'>
+        <h2 className='text-2xl text-[#818498] uppercase '>Client Testimonials</h2>
       </div>
 
-      <div className='flex flex-row'>
+      <div className='flex flex-row px-10'>
         {testimonials.map((testy: Testimonial) => (
           <div className='flex flex-col items-center justify-center'>
 
             <img
               src={`img/image-${testy.img}.jpg`}
-              className='rounded-full'
+              className='rounded-full image-fix'
               id='testimonial-image'
               />
 
-            <p id='testimonial-body' className='text-center'>{testy.body}</p>
+            <p style={{ color: '#5a636c', fontSize: '0.9rem', fontWeight: '400', fontFamily: '"Barlow", sans-serif' }} id='testimonial-body'
+              className='text-center px-16 pb-6'>{testy.body}</p>
 
             <div id='testimonial-footer'>
               <p className='text-center' >{testy.name}</p>
-              <p className='text-center'> {testy.role}</p>
+              <p className='text-center text-[#a7abae]'> {testy.role}</p>
             </div>
           </div>
         ))}

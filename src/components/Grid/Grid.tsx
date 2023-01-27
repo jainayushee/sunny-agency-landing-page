@@ -5,7 +5,7 @@ export default function RowOne() {
     <>
       <div className="flex lg:flex-row flex-col-reverse">
         <div className="lg:basis-6/12">
-          <div className="h-full flex flex-col items-start justify-center px-20 lg:pt-0 py-48">
+          <div className="h-full flex flex-col items-start justify-center px-20 lg:pt-0 py-36">
             <h1
               className="text-[#23303e] leading-8 pb-5"
               style={{ fontWeight: "900", fontSize: "2rem" }}
@@ -34,7 +34,7 @@ export default function RowOne() {
           <img src="img/image-stand-out.jpg" />
         </div>
         <div className="lg:basis-6/12">
-          <div className="h-full flex flex-col items-start justify-center px-20 lg:pt-0 py-48">
+          <div className="h-full flex flex-col items-start justify-center px-20 lg:pt-0 py-36">
             <h1
               className="text-[#23303e] leading-8 pb-5"
               style={{ fontWeight: "900", fontSize: "2rem" }}

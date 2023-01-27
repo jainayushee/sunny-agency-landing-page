@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Tailwind Sunnyside Agency Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a responsive landing page for an agency, in React-Typescript using TailwindCSS. 
+
+Frontend Mentor Challenge - [Here](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
+
+![lvj0udxz21q6bicxkysz](https://user-images.githubusercontent.com/43040456/214978982-581e1ee8-94da-4327-90ef-69d707e087e9.jpg)
+
 
 ## Available Scripts
 
@@ -13,11 +18,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 

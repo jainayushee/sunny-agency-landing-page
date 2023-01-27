@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 type Testimonial = {
   name: string;
@@ -7,62 +7,62 @@ type Testimonial = {
   img: string;
 };
 
-export default function Testimonials() {
+export default function Testimonials () {
   const testimonials: Testimonial[] = [
     {
-      name: "Emily R.",
+      name: 'Emily R.',
       body: `We put our trust in Sunnyside and they delivered, making sure
     our needs were met and deadlines were always hit.`,
-      role: "Marketing Director",
-      img: "emily",
+      role: 'Marketing Director',
+      img: 'emily'
     },
     {
-      name: "Thomas S.",
+      name: 'Thomas S.',
       body: `Sunnyside’s enthusiasm coupled with their keen interest in our
     brand’s success made it a satisfying and enjoyable experience.`,
-      role: "Chief Operating Officer",
-      img: "thomas",
+      role: 'Chief Operating Officer',
+      img: 'thomas'
     },
     {
-      name: "Jennie F.",
+      name: 'Jennie F.',
       body: `Incredible end result! Our sales increased over 400% when we
     worked with Sunnyside. Highly recommended!`,
-      role: "Business Owner",
-      img: "jennie",
-    },
+      role: 'Business Owner',
+      img: 'jennie'
+    }
   ];
 
   return (
-    <div className="lg:pb-20 pb-10">
-      <div className="text-center lg:pt-20 pt-14 pb-16">
-        <h2 className="text-2xl text-[#818498] uppercase ">Client Testimonials</h2>
+    <div className='lg:pb-20 pb-10'>
+      <div className='text-center lg:pt-20 pt-14 pb-16'>
+        <h2 className='text-2xl text-[#818498] uppercase '>Client Testimonials</h2>
       </div>
 
-      <div className="flex lg:flex-row px-10 flex-col">
+      <div className='flex lg:flex-row px-10 flex-col'>
         {testimonials.map((testy: Testimonial) => (
-          <div className="flex flex-col items-center justify-center lg:pb-10 pb-16">
+          <div className='flex flex-col items-center justify-center lg:pb-10 pb-16'>
             <img
               src={`img/image-${testy.img}.jpg`}
-              className="rounded-full image-fix lg:mb-5 mb-2"
-              id="testimonial-image"
+              className='rounded-full image-fix lg:mb-5 mb-2'
+              id='testimonial-image'
             />
 
             <p
               style={{
-                color: "#5a636c",
-                fontSize: "0.9rem",
-                fontWeight: "400",
-                fontFamily: '"Barlow", sans-serif',
+                color: '#5a636c',
+                fontSize: '0.9rem',
+                fontWeight: '400',
+                fontFamily: '"Barlow", sans-serif'
               }}
-              id="testimonial-body"
-              className="text-center px-16 lg:pb-6 pb-3"
+              id='testimonial-body'
+              className='text-center px-16 lg:pb-6 pb-3'
             >
               {testy.body}
             </p>
 
-            <div id="testimonial-footer">
-              <p className="text-center">{testy.name}</p>
-              <p className="text-center text-[#a7abae]"> {testy.role}</p>
+            <div id='testimonial-footer'>
+              <p className='text-center'>{testy.name}</p>
+              <p className='text-center text-[#a7abae]'> {testy.role}</p>
             </div>
           </div>
         ))}

@@ -33,17 +33,17 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className="pb-20">
-      <div className="text-center pt-20 pb-16">
+    <div className="lg:pb-20 pb-10">
+      <div className="text-center lg:pt-20 pt-14 pb-16">
         <h2 className="text-2xl text-[#818498] uppercase ">Client Testimonials</h2>
       </div>
 
       <div className="flex lg:flex-row px-10 flex-col">
         {testimonials.map((testy: Testimonial) => (
-          <div className="flex flex-col items-center justify-center pb-10">
+          <div className="flex flex-col items-center justify-center lg:pb-10 pb-16">
             <img
               src={`img/image-${testy.img}.jpg`}
-              className="rounded-full image-fix"
+              className="rounded-full image-fix lg:mb-5 mb-2"
               id="testimonial-image"
             />
 
@@ -55,7 +55,7 @@ export default function Testimonials() {
                 fontFamily: '"Barlow", sans-serif',
               }}
               id="testimonial-body"
-              className="text-center px-16 pb-6"
+              className="text-center px-16 lg:pb-6 pb-3"
             >
               {testy.body}
             </p>
